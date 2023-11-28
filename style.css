@@ -1,0 +1,41 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+
+}
+
+#boton{
+    padding-left: 40px;
+    background-color: aquamarine;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border:none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+table{
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: chocolate;
+}
+
+td{
+    border: 1px solid black; /*Añade un borde*/
+    padding: 20px; 
+    text-align: center;
+}
